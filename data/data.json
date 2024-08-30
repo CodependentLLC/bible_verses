@@ -13,5 +13,390 @@
         "id": 3,
         "reference": "Philippians 4:13",
         "verse": "I can do all things through Christ who strengthens me."
+    },
+    {
+        "id": 1,
+        "ref":"Romans 8:37",
+        "verse":"No in all these things we are more than conquerors through Him who loved us."
+    },
+    {
+    "id": 2,
+    "ref":"Romans 12:2",
+    "verse":"Do not be conformed by the pattern of this world, but be transformed by the renewing of your mind so that you may be able to test God&#039;s will, His good, pleasing, and perfect will."
+    },
+    {
+    "id": 3,
+    "ref":"Romans 10:9",
+    "verse":"If we confess with our mouth that Jesus is Lord and believe in your heart that God raised Him from the dead, you will be saved."
+    },
+    {
+    "id": 4,
+    "ref":"1 Corinthians 16:13-14",
+    "verse":"Be on the alert, stand firm in the faith, act like men, be strong.  Let all that you do be done in love."
+    },
+    {
+    "id": 5,
+    "ref":"1 Corinthians 10:12",
+    "verse":"Therefore let him who thinks he stands take heed lest he fall."
+    },
+    {
+    "id": 6,
+    "ref":"Galations 6:7-8",
+    "verse":"Do not be deceived, God is not mocked.  For whatever a man sows, that will he also reap.  For a man who sows to the flesh will from the flesh reap corruption, but the one who sows to the Spirit will from the Spirit reap eternal life."
+    },
+    {
+    "id": 7,
+    "ref":"Ephesians 5:25",
+    "verse":"Husbands love your wives as Christ loved the church and gave Himself up for her."
+    },
+    {
+    "id": 8,
+    "ref":"Ephesians 6:13",
+    "verse":"Therefore, put on the full armor of God so that when the day of evil comes, you may be able to stand your ground, and after you have done everything, to stand."
+    },
+    {
+    "id": 9,
+    "ref":"Philippians 4:8",
+    "verse":"Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable, if anything is excellent and praiseworthy, think about such things."
+    },
+    {
+    "id": 10,
+    "ref":"Philippians 4:13",
+    "verse":"I can do all things through Christ who strengthens me."
+    },
+    {
+    "id": 11,
+    "ref":"Hebrews 10:36",
+    "verse":"Pursuing endurance is what we need now, so you will continue to do God&#039;s Will, then you will receive all He has promised."
+    },
+    {
+    "id": 12,
+    "ref":"1 Peter 5:7",
+    "verse":"Cast all your anxiety on the Lord because He cares for you."
+    },
+    {
+    "id": 13,
+    "ref":"1 Peter 3:7",
+    "verse":"You husbands, live with your wives according to the knowledge, giving honor to the woman as the weaker vessel, as being also joint heirs in the grace of life that your prayers may not be hindered."
+    },
+    {
+    "id": 14,
+    "ref":"1 John 1:9",
+    "verse":"If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness."
+    },
+    {
+    "id": 15,
+    "ref":"1 John 5:11-13",
+    "verse":"This is what God has testified, He has given us eternal life.  And this life is in His Son.  Whoever has God&#039;s Son has life; whoever does not have His Son does not have eternal life.  I write this to you who believe in the Son of God that you may know you have eternal life."
+    },
+    {
+    "id": 16,
+    "ref":"Luke 17:33",
+    "verse":"Whoever tries to keep their life will lose it, and whoever loses their life for my sake will preserve it."
+    },
+    {
+    "id": 17,
+    "ref":"Romans 6:23 (ESV)",
+    "verse":"For the wages of sin is death, but the free gift of God is eternal life through Jesus Christ our Lord."
+    },
+    {
+    "id": 18,
+    "ref":"Proverbs, 15:1 (ESV)",
+    "verse":"A soft word turns away wrath, but a harsh word stirs up anger."
+    },
+    {
+    "id": 19,
+    "ref":"Isaiah, 26:3 (ESV)",
+    "verse":"You keep him in perfect peace whose mind is stayed on you because he trusts in you."
+    },
+    {
+    "id": 20,
+    "ref":"Revelation, 21:8 (ESV)",
+    "verse":"But as for the cowardly, faithless, detestable, as for murderers, the sexually immoral, sorcerers, idolaters, and all liars, their portion will be in the lake that burns with fire and sulfur which is the second death."
+    },
+    {
+    "id": 21,
+    "ref":"Matthew, 22:36-38",
+    "verse":"Teacher, which is the greatest commandment.  Jesus replied, &quot;Love the Lord your God with all your heart and all your soul and all your mind.  This is the first and greatest commandment."
+    },
+    {
+    "id": 22,
+    "ref":"2 Timothy 3:16-17",
+    "verse":"All scripture is God breathed and is useful for teaching, rebuking, and training in righteousness so that the man of God may be fully equipped for every good work."
+    },
+    {
+    "id": 23,
+    "ref":"Joshua 1:8",
+    "verse":"Keep this book of the law always on your lips.  Meditate on it day and night so that you may be careful to do everything written in it, then you will be prosperous and successful."
+    },
+    {
+    "id": 24,
+    "ref":"Philippians 4:6-7",
+    "verse":"Do not be anxious about anything, but in everything, by prayer and petition, with thanksgiving, present your requests to God, and the peace of God which transcends all understanding will guard your hearts and minds in Christ Jesus."
+    },
+    {
+    "id": 25,
+    "ref":"James 1:22",
+    "verse":"Do not merely listen to the word, and so deceive yourselves.  Do what it says."
+    },
+    {
+    "id": 26,
+    "ref":"Ephesians 6:4",
+    "verse":"Fathers, do not exasperate your children; instead, bring them up in the training and instruction of the Lord."
+    },
+    {
+    "id": 27,
+    "ref":"Proverbs 18:21",
+    "verse":"The tongue has the power of life and death, and those who love it will eat its fruit."
+    },
+    {
+    "id": 28,
+    "ref":"Proverbs 18:13",
+    "verse":"He who answers before listening - that is his folly and his shame."
+    },
+    {
+    "id": 29,
+    "ref":"James 1:2-4",
+    "verse":"Consider it pure joy, my brothers, whenever you face trials of many kinds, because you know that the testing of your faith develops perseverance.  Perseverance must finish its work so that you may be mature and complete, not lacking in anything."
+    },
+    {
+    "id": 30,
+    "ref":"Matthew 11:28-30",
+    "verse":"Come to me, all you who are weary and burdened, and I will give you rest.  Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls.  For my yoke is easy and my burden is light."
+    },
+    {
+    "id": 31,
+    "ref":"Genesis 2:18",
+    "verse":"The Lord God said, &quot;It is not good for man to be alone.  I will make a helper suitable for him.&quot;"
+    },
+    {
+    "id": 32,
+    "ref":"1 Peter 4:19",
+    "verse":"So then, those who suffer according to God&#039;s will should commit themselves to their faithful Creator and continue to do good."
+    },
+    {
+    "id": 33,
+    "ref":"Romans 12:12",
+    "verse":"Be joyful in hope, patient in affliction, faithful in prayer."
+    },
+    {
+    "id": 34,
+    "ref":"Mark 4:19",
+    "verse":"But the worries of this life, the deceitfulness of wealth and the desire for other things come in and choke the word, making it unfruitful."
+    },
+    {
+    "id": 35,
+    "ref":"Proverbs 22:7",
+    "verse":"The rich rule over the poor, and the borrower is slave to the lender."
+    },
+    {
+    "id": 36,
+    "ref":"Ecclesiastes 11:2",
+    "verse":"Give portions to seven, yes to eight, for you do not know what disaster may come upon your land."
+    },
+    {
+    "id": 37,
+    "ref":"Ephesians 2:4-5",
+    "verse":"But God, being rich in mercy, because of the great love with which He loved us, even when we were dead in our trespasses, made us alive together with Christ - by grace you have been saved."
+    },
+    {
+    "id": 38,
+    "ref":"Psalm 103:2-5",
+    "verse":"Praise the Lord, my soul, and forget not all His benefits, who forgives all of your sins, who heals all of your diseases, who redeems your life from the pit, who crowns you with love and compassions, who satisfies your desires with good things, so that your youth is renewed like the eagles."
+    },
+    {
+    "id": 39,
+    "ref":"John 6:47",
+    "verse":"Truly, truly, I say to you, whoever believes has eternal life."
+    },
+    {
+    "id": 40,
+    "ref":"Romans 3:23",
+    "verse":"For all have sinned and fallen short of the glory of God."
+    },
+    {
+    "id": 41,
+    "ref":"John 3:3 (ESV)",
+    "verse":"Jesus answered him, &quot;Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God.&quot;"
+    },
+    {
+    "id": 42,
+    "ref":"Matthew 28:18-20",
+    "verse":"Then Jesus came to them and said: &quot;All authority in heaven and on earth has been given to me.  Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you.  And surely I am with you always, to the very end of the age.&quot;"
+    },
+    {
+    "id": 43,
+    "ref":"1 Timothy 6:18-19",
+    "verse":"Command them to do good, to be rich in good deeds, and be generous and willing to share.  In this way they will lay up treasure for themselves as a firm foundation for the coming age, so that they may take hold of the life that is truly life."
+    },
+    {
+    "id": 44,
+    "ref":"1 John 2:6",
+    "verse":"The one who says he abides in Him ought himself to walk in the same manner as He walked."
+    },
+    {
+    "id": 45,
+    "ref":"Psalm 119:105",
+    "verse":"Your word is a lamp to my feet and a light to my path."
+    },
+    {
+    "id": 46,
+    "ref":"Romans 13:14",
+    "verse":"But put on the Lord Jesus Christ,  and make no provisions for the flesh,  to gratify its desires."
+    },
+    {
+    "id": 47,
+    "ref":"Matthew 26:41",
+    "verse":"watch and pray that you may not enter temptation.   The spirit indeed is willing,  but the flesh  is weak."
+    },
+    {
+    "id": 48,
+    "ref":"Hebrews 10:24-25",
+    "verse":"Let us consider how to stir up one another to love and good works, not neglecting to meet together as is the habit of some, but encouraging one another, and all the more as you see the Day drawing near."
+    },
+    {
+    "id": 49,
+    "ref":"2 Corinthians 5:17",
+    "verse":"Therefore,  if anyone is in Christ,  he is a new creation.   The old has passed away,  behold the new has come."
+    },
+    {
+    "id": 50,
+    "ref":"Ephesians 2:4-5",
+    "verse":"But God, being rich in mercy, because of the great love with which He loved us, even so we were also in our trespasses, made us alive together with Christ - by grace you have been saved."
+    },
+    {
+    "id": 51,
+    "ref":"1 Peter 3:8-9",
+    "verse":"Finally, all of you, live in harmony with one another; be sympathetic, love as brothers, be compassionate and humble.  Do not repay evil with evil or insult with insult, but with blessing, because to this you were called so that you may inherit a blessing."
+    },
+    {
+    "id": 52,
+    "ref":"2 Timothy 2:22",
+    "verse":"So flee youthful passions and pursue righteousness, faith, love, and peace, along with those who call on the Lord from a pure heart."
+    },
+    {
+    "id": 53,
+    "ref":"James 1:5",
+    "verse":"If any of you lacks wisdom,  you should ask God who gives generously to all without finding fault and it will be given to you."
+    },
+    {
+    "id": 54,
+    "ref":"1 Corinthians 6:20",
+    "verse":"You are not your own; you were bought at a price.  Therefore honor God with your body."
+    },
+    {
+    "id": 55,
+    "ref":"Colossians 3:19",
+    "verse":"Husbands, love your wives and do not be harsh with them."
+    },
+    {
+    "id": 56,
+    "ref":"1 Peter 3:15",
+    "verse":"But in your hearts set apart Christ as Lord.  Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have."
+    },
+    {
+    "id": 57,
+    "ref":"1 Corinthians 6:18",
+    "verse":"Flee sexual immorality.  All other sins a person commits are outside the body, but whoever sins sexually, sins against their own body."
+    },
+    {
+    "id": 58,
+    "ref":"Hebrews 12:11",
+    "verse":"No discipline seems pleasant at the time, but painful.  Later on however, it produces a harvest of righteousness and peace for those who are trained by it."
+    },
+    {
+    "id": 59,
+    "ref":"Romans 3:10",
+    "verse":"It is written, there is no one righteous, not even one."
+    },
+    {
+    "id": 60,
+    "ref":"1 Corinthians 3:16",
+    "verse":"Do you not know that you are God&#039;s temple and that God&#039;s Spirit dwells in you?  (ESV)"
+    },
+    {
+    "id": 61,
+    "ref":"Matthew  22:36-38",
+    "verse":"Teacher, which is the greatest commandment in the Law?  Jesus replied, &quot;Love the Lord your God with all your heart, with all your soul, with all your mind.  This is the first and greatest commandment.&quot;"
+    },
+    {
+    "id": 62,
+    "ref":"2 Timothy 3:16-17",
+    "verse":"All Scripture is God-breathed and is useful for teaching, rebuking, correcting, and training in righteousness so that the man of the Word will be thoroughly equipped for every good work."
+    },
+    {
+    "id": 63,
+    "ref":"Joshua 1:8",
+    "verse":"Keep this Book of the Law always on your lips; meditate on it day and night so that you may be careful to do everything written in it.  Then you will be prosperous and successful."
+    },
+    {
+    "id": 64,
+    "ref":"John 16:24",
+    "verse":"Until now, you have not asked for anything in my name.  Ask and you will receive, and your joy will be complete."
+    },
+    {
+    "id": 65,
+    "ref":"Psalm 51:6",
+    "verse":"Behold, you delight in truth in the inward being, and you teach me wisdom in the secret heart."
+    },
+    {
+    "id": 67,
+    "ref":"Matthew 7:11",
+    "verse":"If you, then, though you are evil, know how to give good gifts to your children, how much more will your Father in heaven give good gifts to those who ask Him!"
+    },
+    {
+    "id": 68,
+    "ref":"Psalms 94:19",
+    "verse":"When anxiety was great within me, your consolation brought me joy."
+    },
+    {
+    "id": 69,
+    "ref":"Ephesians 6:18",
+    "verse":"And pray in the Spirit on all occasions with all kinds of prayers and requests.  With this in mind, be alert and always keep on praying for all the Lord's people."
+    },
+    {
+    "id": 70,
+    "ref":"Matthew 10:32",
+    "verse":"So everyone who acknowledges me before men, I also will acknowledge before my Father who is in heaven."
+    },
+    {
+    "id": 71,
+    "ref":"Luke 16:10-11",
+    "verse":"Whoever can be trusted with very little can also be trusted with much, and whoever is dishonest with very little will also be dishonest with much.  So if you have not been trustworthy in handling worldly wealth, who will trust you with true riches?"
+    },
+    {
+    "id": 72,
+    "ref":"Luke 6:38",
+    "verse":"Give, and it will be given unto you.  Good measure, pressed down, shaken together, running over, will be put into your lap.  For with the measure you use it will be measured back to you."
+    },
+    {
+    "id": 73,
+    "ref":"Proverbs 20:19",
+    "verse":"Whoever goes about slandering reveals secrerts, therefore do not associate with a simple babbler."
+    },
+    {
+    "id": 74,
+    "ref":"Proverbs 26:20-22",
+    "verse":"For lack of wood the fire goes out, and where there is no whisperer, quarreling ceases.  As charcoal to hot embers and wood to fire, so is a quarrelsome man for kindling strife."
+    },
+    {
+    "id": 75,
+    "ref":"Proverbs 22:24-25",
+    "verse":"Make no friendship with a man given to anger nor go with a wrathful man."
+    },
+    {
+    "id": 76,
+    "ref":"Proverbs 10:19",
+    "verse":"When words are many, transgression is not lacking, but whoever restrains his lips is prudent."
+    },
+    {
+    "id": 77,
+    "ref":"Proverbs 17:27-28",
+    "verse":"Whoever restrains his words has knowledge, and he who has a cool spirit is a man of understanding.  Even a fool who is silent is considered wise, when he closes his lips, he is deemed intelligent."
+    },
+    {
+    "id": 78,
+    "ref":"Proverbs 21:23",
+    "verse":"Whoever keeps his mouth and his tongue keeps himself out of trouble."
     }
 ]
