@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Bible Memory Verse App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 
-  <!-- Tailwind (CDN, fine for demo/prototyping) -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+    <title>Bible Memory Verse App</title>
+
+    <!-- Tailwind (CDN, fine for demo/prototyping) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
     tailwind.config = { theme: { extend: {} } };
-  </script>
+    </script>
 
-  <!-- Babel for in-browser JSX transform (dev only) -->
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Babel for in-browser JSX transform (dev only) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-  <!-- React 18 UMD -->
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- React 18 UMD -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 
-  <!-- Lucide icons (UMD) -> global `lucide` -->
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <!-- Lucide icons (UMD) -> global `lucide` -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 
-  <!-- Optional: subtle page bg so it matches the demo feel -->
-   <link rel="stylesheet" href="styles/styles.css" />
-  <style>
-  </style>
+    <!-- Optional: subtle page bg so it matches the demo feel -->
+    <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body class="min-h-screen text-slate-900 ">
   <div id="root"></div>
