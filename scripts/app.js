@@ -104,14 +104,13 @@ const IconPalette = (p) => (
 
 const IconBookVault = (p) => (
   <Svg {...p}>
-    {/* Book outline with spine */}
-    <rect x="3" y="4" width="14" height="16" rx="2" ry="2" />
-    <line x1="7" y1="4" x2="7" y2="20" /> {/* spine line */}
-
-    {/* Lock body */}
+    {/* Open book shape */}
+    <path d="M12 20c-3.5-2-8-2-10-2V6c2-.14 6.5 0 10 2 
+             3.5-2 8-2 10-2v12c-2 0-6.5 0-10 2Z" />
+    {/* Lock body (small rectangle) */}
     <rect x="10" y="10" width="4" height="5" rx="1" />
-    {/* Lock shackle (arc) */}
-    <path d="M11 10 V8a1 1 0 0 1 2 0v2" />
+    {/* Lock shackle (arc above the rectangle) */}
+    <path d="M11 10V8a1 1 0 0 1 2 0v2" />
   </Svg>
 );
 
