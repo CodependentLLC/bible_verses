@@ -102,6 +102,21 @@ const IconPalette = (p) => (
   </Svg>
 );
 
+const IconBookVault = (p) => (
+  <Svg {...p}>
+    {/* Book outline with spine */}
+    <rect x="3" y="4" width="14" height="16" rx="2" ry="2" />
+    <line x1="7" y1="4" x2="7" y2="20" /> {/* spine line */}
+
+    {/* Lock body */}
+    <rect x="10" y="10" width="4" height="5" rx="1" />
+    {/* Lock shackle (arc) */}
+    <path d="M11 10 V8a1 1 0 0 1 2 0v2" />
+  </Svg>
+);
+
+
+
 /* ---------- Theme class presets (Tailwind) ---------- */
 const THEMES = {
   default: "from-amber-50 via-rose-50 to-sky-50",
@@ -266,8 +281,8 @@ function App(){
         <header className="flex items-center justify-between gap-4">
           <div>
             <h1 className={`text-2xl md:text-3xl font-extrabold tracking-tight flex items-center gap-2 ${THEME_TITLE_COLOR[theme] || 'text-slate-900'}`}>
-              <IconBookOpenCheck className="w-8 h-8" />
-              Bible Memory Verse App
+              <IconBookVault className="w-8 h-8" />
+              VerseVault
             </h1>
             <p className="text-sm text-slate-600">Simple way to memorize bible verses</p>
           </div>
