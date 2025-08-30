@@ -269,7 +269,7 @@ function App(){
               <IconBookOpenCheck className="w-8 h-8" />
               Bible Memory Verse App
             </h1>
-            <p className="text-sm text-slate-600">Arrows navigate • Space reveal • S shuffle • K mark known</p>
+            <p className="text-sm text-slate-600">Simple way to memorize bible verses</p>
           </div>
 
           <div className="hidden md:flex items-center gap-2">
