@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-	<link rel="manifest" href="./site.webmanifest">
-    <title>Bible Verse Viewer</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bible Memory Verse App</title>
+
+  <!-- Tailwind (CDN, fine for demo/prototyping) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: {} } };
+  </script>
+
+  <!-- Babel for in-browser JSX transform (dev only) -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- React 18 UMD -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+  <!-- Optional: subtle page bg so it matches the demo feel -->
+   <link rel="stylesheet" href="styles/styles.css" />
+  <style>
+  </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Bible Verse Viewer</h1>
-        <div id="verses-container"></div>
-    </div>
-    <script src="scripts/script.js"></script>
+<body class="min-h-screen text-slate-900">
+  <div id="root"></div>
+
+<script type="text/babel" src="scripts/app.js"></script>
+
 </body>
 </html>
