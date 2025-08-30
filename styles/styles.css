@@ -1,1 +1,5 @@
     body { background: linear-gradient(135deg,#fff7ed,#fff1f2 40%,#f0f9ff); }
+svg {
+  width:20px;
+  /* display:inline !important; */
+}
