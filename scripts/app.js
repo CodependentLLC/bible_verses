@@ -114,6 +114,26 @@ const IconBookVault = (p) => (
   </Svg>
 );
 
+const IconHeartVault = (p) => (
+  <Svg {...p} viewBox="0 0 24 24">
+    {/* Lock shackle */}
+    <path
+      d="M8 9V7a4 4 0 0 1 8 0v2"
+      stroke="currentColor"
+      strokeWidth="2"
+      fill="none"
+    />
+    {/* Heart as lock body (outline only, no fill) */}
+    <path
+      d="M12 21s-6-4-6-8a3.5 3.5 0 0 1 7 0 3.5 3.5 0 0 1 7 0c0 4-6 8-6 8Z"
+      stroke="currentColor"
+      strokeWidth="2"
+      fill="none"
+    />
+  </Svg>
+);
+
+
 
 
 /* ---------- Theme class presets (Tailwind) ---------- */
@@ -280,10 +300,10 @@ function App(){
         <header className="flex items-center justify-between gap-4">
           <div>
             <h1 className={`text-2xl md:text-3xl font-extrabold tracking-tight flex items-center gap-2 ${THEME_TITLE_COLOR[theme] || 'text-slate-900'}`}>
-              <IconBookVault className="w-8 h-8" />
-              VerseVault
+              <IconHeartVault className="w-8 h-8 text-sky-600" />
+              HeartVault
             </h1>
-            <p className="text-sm text-slate-600">Simple way to memorize bible verses</p>
+            <p className="text-sm text-slate-600">Hide God's Word in Your Heart</p>
           </div>
 
           <div className="hidden md:flex items-center gap-2">
@@ -337,14 +357,14 @@ function App(){
               placeholder="Search reference or text…"
               className="flex-1 pl-3 pr-3 py-2 rounded-xl border border-slate-300 bg-white/80 outline-none focus:ring-2 focus:ring-sky-300"
             />
-            <button onClick={()=>setShuffle(s=>!s)} className={`px-3 py-2 rounded-xl border flex items-center gap-2 ${shuffle?"bg-black text-white border-black":"bg-white border-slate-300"}`}><IconShuffle className="w-4 h-4"/>{shuffle?"Shuffling":"Shuffle"}</button>
-            <button onClick={()=>{ setIndex(0); setReveal(false); }} className="px-3 py-2 rounded-xl border flex items-center gap-2 bg-white border-slate-300"><IconRefresh className="w-4 h-4"/> Reset</button>
+            <button onClick={()=>setShuffle(s=>!s)} className={`px-3 py-2 rounded-xl border flex items-center gap-2 ${shuffle?"bg-black text-white border-black":"bg-white border-slate-300"}`}><IconShuffle className="w-4 h-4"/><span className="hidden sm:inline">{shuffle?"Shuffling":"Shuffle"}</span></button>
+            <button onClick={()=>{ setIndex(0); setReveal(false); }} className="px-3 py-2 rounded-xl border flex items-center gap-2 bg-white border-slate-300"><IconRefresh className="w-4 h-4"/> <span className="hidden sm:inline">Reset</span></button>
           </div>
 
           <div className="col-span-1 flex flex-wrap items-center justify-between gap-2">
             <div className="flex items-center gap-2">
-              <button onClick={()=>setOnlyWithText(v=>!v)} className={`px-3 py-2 rounded-xl border flex items-center gap-2 ${onlyWithText?"bg-black text-white border-black":"bg-white border-slate-300"}`}><IconFilter className="w-4 h-4" /> Text only</button>
-              <button onClick={()=>setDedupe(v=>!v)} className={`px-3 py-2 rounded-xl border flex items-center gap-2 ${dedupe?"bg-black text-white border-black":"bg-white border-slate-300"}`}><IconLayers className="w-4 h-4" /> Deduplicate</button>
+              <button onClick={()=>setOnlyWithText(v=>!v)} className={`px-3 py-2 rounded-xl border flex items-center gap-2 ${onlyWithText?"bg-black text-white border-black":"bg-white border-slate-300"}`}><IconFilter className="w-4 h-4" /> <span className="hidden sm:inline">Text only</span></button>
+              <button onClick={()=>setDedupe(v=>!v)} className={`px-3 py-2 rounded-xl border flex items-center gap-2 ${dedupe?"bg-black text-white border-black":"bg-white border-slate-300"}`}><IconLayers className="w-4 h-4" /> <span className="hidden sm:inline">Deduplicate</span></button>
             </div>
           </div>
 
@@ -369,8 +389,8 @@ function App(){
                 <div className="flex items-center justify-between gap-3">
                   <div className="text-sm text-slate-600">Card {clamp(index)+1} of {ordered.length}</div>
                   <div className="flex items-center gap-2">
-                    <button onClick={copyCurrent} className="px-3 py-1.5 rounded-lg border border-slate-300 flex items-center gap-2 bg-white text-sm"><IconCopy className="w-4 h-4"/> Copy</button>
-                    <button onClick={()=>current && toggleKnown(current.id)} className={`px-3 py-1.5 rounded-lg border flex items-center gap-2 text-sm ${current && isKnown(current.id)?"bg-emerald-600 text-white border-emerald-700":"bg-white border-slate-300"}`}><IconCheck className="w-4 h-4"/>{current && isKnown(current.id)?"Memorized":"Mark Memorized"}</button>
+                    <button onClick={copyCurrent} className="px-3 py-1.5 rounded-lg border border-slate-300 flex items-center gap-2 bg-white text-sm"><IconCopy className="w-4 h-4"/> <span className="hidden sm:inline">Copy</span></button>
+                    <button onClick={()=>current && toggleKnown(current.id)} className={`px-3 py-1.5 rounded-lg border flex items-center gap-2 text-sm ${current && isKnown(current.id)?"bg-emerald-600 text-white border-emerald-700":"bg-white border-slate-300"}`}><IconCheck className="w-4 h-4"/><span className="hidden sm:inline">{current && isKnown(current.id)?"`Memorized":"Mark Memorized"}</span></button>
                   </div>
                 </div>
 
